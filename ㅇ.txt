@@ -1,0 +1,9 @@
+
+
+# 2번
+import seaborn as sns
+ax = plt.subplots()
+ax = sns.countplot(x=df['Year'], hue=df['Sex'], data=df)
+ax.set_title("년도별 남녀 출생 추이")
+ax.set_xlabel('년도')
+ax.set_ylabel('count')
