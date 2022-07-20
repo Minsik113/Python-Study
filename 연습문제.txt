@@ -1,0 +1,44 @@
+# 데이터 읽기
+import glob
+import pandas as pd
+file_set = glob.glob('data/dust/*.csv')
+file_list = []
+
+# month 컬럼 추가
+for idx, file_path in enumerate(file_set):
+    file_list.append(pd.read_csv(file_path, encoding='cp949', index_col=0))
+    m = file_path.split('_')[1].split('.')[0]
+    file_list[idx]['month'] = m
+file_list
+
+# 합치기 -> 각 csv마다 누락된값들(4월은 3.0없음)이 있어서 합친후 작업
+import pandas as pd
+total_file_list = pd.concat(file_list)
+total_file_list.head(3)
+
+# melt로 컬럼줄이기
+file_long_month = pd.melt(total_file_list, id_vars=['...1','month']
+        ,var_name='day'
+        ,value_name='danger')
+file_long_month
+
+# '월' 제외. 행 개수 세줌. 기준은 지명,위험도
+file_long = file_long_month[file_long_month.columns.difference(['month'])]
+file_long # month 컬럼 없음
+df = pd.pivot_table(file_long, index=['...1','danger'], aggfunc=len).reset_index()
+df
+
+# 폰트, plt
+%matplotlib inline
+import matplotlib.pyplot as plt
+from matplotlib import font_manager, rc
+plt.rcParams['axes.unicode_minus'] = False
+f_path = 'C:\Windows\Fonts\malgun.ttf'
+font_name = font_manager.FontProperties(fname=f_path).get_name()
+rc('font',family=font_name)
+
+# 그래프
+import seaborn as sns
+ax = plt.subplots()
+plt.xticks(rotation = - 270 )
+ax = sns.barplot(x='...1', y='day', hue='danger', data=df)
