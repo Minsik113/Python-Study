@@ -1,9 +1,36 @@
+pd.concat = 그냥 싹 이어붙임 index를 가지고가냐 아니냐는 parameter로 조정
+melt() = transform시키는거 90도 꺾기
+pivot_table = 해당 값으로 개수 셈
+
+#파일호출
+.xlsx -> read_excel
+.csv -> read_csv
+
+# 폰트
 %matplotlib inline
 import matplotlib.pyplot as plt
-
 from matplotlib import font_manager, rc
 plt.rcParams['axes.unicode_minus'] = False
-
 f_path = 'C:\Windows\Fonts\malgun.ttf'
 font_name = font_manager.FontProperties(fname=f_path).get_name()
 rc('font',family=font_name)
+
+# url 
+url = Request(df['URL'][n], headers={'User-Agent':'Mozilla/5.0'}) # 
+html = urlopen(url)
+
+# 진행상황 보려고 tqdm
+from tqdm import tqdm_notebook
+price   = []
+address = []
+for n in tqdm_notebook(df.index):
+    url = Request(df['URL'][n], headers={'User-Agent':'Mozilla/5.0'}) # 
+    html = urlopen(url)
+    soup_tmp = BeautifulSoup(html, 'lxml')
+    
+    gettings = soup_tmp.find('p','addy').get_text()
+
+    price.append(gettings.split()[0][:-1]) # '.'뺴려고 -1까지
+    address.append(' '.join(gettings.split()[1:-2]))
+    time.sleep(0.03)
+
