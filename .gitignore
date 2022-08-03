@@ -44,3 +44,34 @@ data/지역_위치별(주유소) (8).xls
 data/지역_위치별(주유소) (9).xls
 data/지역_위치별(주유소).xls
 images/002.png
+Book_Machine_Learning/.ipynb_checkpoints/03- 결정 트리, 랜덤 포레스트, SVM-checkpoint.ipynb
+Book_Machine_Learning/.ipynb_checkpoints/실습 - 결정트리 iris-checkpoint.ipynb
+Book_Machine_Learning/.ipynb_checkpoints/자주 쓸 것 같은 함수 모아둠-checkpoint.ipynb
+Book_Machine_Learning/__pycache__/preamble.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/__init__.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/datasets.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_2d_separator.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_agglomerative.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_animal_tree.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_cross_validation.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_dbscan.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_decomposition.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_grid_search.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_helpers.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_improper_preprocessing.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_interactive_tree.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_kmeans.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_knn_classification.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_knn_regression.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_linear_regression.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_linear_svc_regularization.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_metrics.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_nmf.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_nn_graphs.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_pca.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_rbf_svm_parameters.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_ridge.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_scaling.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plot_tree_nonmonotonous.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/plots.cpython-37.pyc
+Book_Machine_Learning/mglearn/__pycache__/tools.cpython-37.pyc
