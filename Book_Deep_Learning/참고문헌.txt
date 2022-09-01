@@ -1,0 +1,2 @@
+밑바닥부터딥러닝
+https://nbviewer.org/github/SDRLurker/deep-learning/blob/master/3%EC%9E%A5.ipynb
