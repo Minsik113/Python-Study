@@ -1,2 +1,7 @@
 밑바닥부터딥러닝
 https://nbviewer.org/github/SDRLurker/deep-learning/blob/master/3%EC%9E%A5.ipynb
+
+활성화함수
+https://cheris8.github.io/artificial%20intelligence/DL-Activation-Function/
+가중치 편향의 역할
+https://jh2021.tistory.com/3
