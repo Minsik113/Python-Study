@@ -5,3 +5,11 @@ https://nbviewer.org/github/SDRLurker/deep-learning/blob/master/3%EC%9E%A5.ipynb
 https://cheris8.github.io/artificial%20intelligence/DL-Activation-Function/
 가중치 편향의 역할
 https://jh2021.tistory.com/3
+
+LSTM
+http://colah.github.io/posts/2015-08-Understanding-LSTMs/
+GAN 예시 웹사이트
+https://this-person-does-not-exist.com/en
+https://phillipi.github.io/pix2pix/
+https://arxiv.org/pdf/1511.06434.pdf
+https://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of/karras2018iclr-paper.pdf
