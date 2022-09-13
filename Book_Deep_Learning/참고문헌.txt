@@ -13,3 +13,52 @@ https://this-person-does-not-exist.com/en
 https://phillipi.github.io/pix2pix/
 https://arxiv.org/pdf/1511.06434.pdf
 https://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of/karras2018iclr-paper.pdf
+
+1. A Comprehensive Guide to Convolutional Neural Networks — the ELI5 way
+https://towardsdatascience.com/a-comprehensive-guide-to-convolutional-neural-networks-the-eli5-way-3bd2b1164a53
+
+2. The Modern History of Object Recognition — Infographic
+https://medium.com/@nikasa1889/the-modern-history-of-object-recognition-infographic-aea18517c318
+
+3. Object detection for self-driving cars
+https://www.hackerearth.com/blog/developers/object-detection-for-self-driving-cars/
+
+4. Make Your Own Neural Network
+http://makeyourownneuralnetwork.blogspot.com/2015/03/the-mnist-dataset-of-handwitten-digits.html
+
+5. Deep Learning for Generic Object Detection : A Survey
+https://arxiv.org/pdf/1809.02165v1.pdf?fbclid=IwAR2_FnOpBS_scTRJv0EMR-dCPywWYLP3pTgXHoahtOjfp2XfiEH6eujmqKw
+
+6. 신경망이란 무엇인가? | 1장.딥러닝에 관하여
+https://www.youtube.com/watch?v=aircAruvnKk&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=1&t=9s
+
+7. NVIDIA의 과학시간 - GPU와 CPU의 차이
+https://www.youtube.com/watch?v=1BAZf3PsjWA
+
+8. CPU 작동 원리
+https://youtu.be/Fg00LN30Ezg
+
+9. GPU 작동 원리
+https://youtu.be/ZdITviTD3VM
+
+10. 고려대학교 산업경영공학부 DSBA 연구실
+https://www.youtube.com/channel/UCPq01cgCcEwhXl7BvcwIQyg/videos
+
+11. 알파폴드 리뷰와 해석
+https://taehojo.github.io/alphafold/alphafold1.html
+
+12. 가짜 얼굴
+https://www.thispersondoesnotexist.com/
+https://this-person-does-not-exist.com/en
+
+13. UNSUPERVISED REPRESENTATION LEARNING WITH DEEP CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS
+https://arxiv.org/pdf/1511.06434.pdf
+
+14. Image-to-Image Translation with Conditional Adversarial Nets
+https://phillipi.github.io/pix2pix/
+
+15. PROGRESSIVE GROWING OF GANS FOR IMPROVED QUALITY, STABILITY, AND VARIATION
+https://research.nvidia.com/sites/default/files/pubs/2017-10_Progressive-Growing-of/karras2018iclr-paper.pdf
+
+16. [⑧딥러닝의활용 3편] GAN(생성적 적대 신경망)과 오토인코더의 원리를 익히고 실행해 봅니다.
+https://www.youtube.com/watch?v=0-b75zEJj8I
